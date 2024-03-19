@@ -431,6 +431,23 @@ section{
     opacity: 1;
 }
 
+.portfolio .box-container .box .content a{
+    height: 5rem;
+    width: 8rem;
+    line-height: 5rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    margin:.5rem;
+    font-size: 2rem;
+    color:var(--black);
+    border-radius: .5rem;
+}
+
+.portfolio .box-container .box .content a:hover{
+    box-shadow: var(--box-shadow-inset);
+    color:var(--green);
+}
+
 .contact form{
     margin:1rem auto;
     max-width: 70rem;
